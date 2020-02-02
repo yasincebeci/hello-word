@@ -220,6 +220,10 @@
   </dependencyManagement>
 
          <distributionManagement>
+                  <repository>
+       <id>deployment</id>
+                <url>http://54.166.162.184:8081/repository/sample-snap/</url>
+   </repository>
    <snapshotRepository>
       <id>nexus-snapshots</id>
       <url>http://54.166.162.184:8081/repository/sample-snap/</url>
